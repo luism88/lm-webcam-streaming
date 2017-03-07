@@ -1,2 +1,2 @@
 # lm-webcam-streaming
-Angula2 2  - Webcam capture live streaming example 
+Angula2 - Webcam capture live streaming example 
