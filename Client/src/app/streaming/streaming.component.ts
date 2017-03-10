@@ -8,6 +8,7 @@ import { StreamingService } from '../core/streaming.service';
     selector: 'streaming-component',
     templateUrl: 'streaming.component.html',
     styleUrls: ['streaming.component.css'],
+    providers: [StreamingService]
 })
 
 

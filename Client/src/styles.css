@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.cssWebCam{
+	width: 480px;
+	height: 480px;
+	background-color:blue
+}

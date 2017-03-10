@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { WebCamComponent,  } from './webcam.component'; 
 
-const routes: Routes = [];
+const WebcamRoutes: Routes = [
+  {
+    path: 'webcam',
+    component: WebCamComponent
+  }
+];
+
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
-  providers: []
+  imports: [RouterModule.forChild(WebcamRoutes)],
+  exports: [RouterModule]
 })
 export class WebcamRoutingModule { }

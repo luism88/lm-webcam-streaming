@@ -19,6 +19,7 @@ app.get('/',function(req,res){
 io.on('connection',function(socket){
 	log.info("A client has connected");
 	socket.on('stream-emit',function(image){
+		log.info("streaming...");
 		socket.broadcast.emit('stream-broadcast',image);
 	})
 })

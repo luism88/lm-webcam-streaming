@@ -6,7 +6,8 @@ import { StreamingService } from '../core/streaming.service';
     moduleId: module.id,
     selector: 'webcam-component',
     templateUrl: 'webcam.component.html',
-    styleUrls: ['webcam.component.css']
+    styleUrls: ['webcam.component.css'],
+    providers: [StreamingService]
    
 })
 export class WebCamComponent implements OnInit {
